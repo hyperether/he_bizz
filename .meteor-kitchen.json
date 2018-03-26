@@ -2,7 +2,7 @@
 	"output_files": [
 		{
 			"path": "imports/ui/router/router.jsx",
-			"checksum": "79d526db085c065294ed649bdcea34658c5ceaab"
+			"checksum": "37d3b825eb3f65ba3d71c74e24a72a7c4235bf11"
 		},
 		{
 			"path": "imports/api/server_routes/router.js",
@@ -167,6 +167,10 @@
 		{
 			"path": "imports/ui/pages/reset_password/reset_password.jsx",
 			"checksum": "249adfb7b06deace249295d8aa550bf404ba8ae4"
+		},
+		{
+			"path": "imports/ui/pages/register_user/register_user.jsx",
+			"checksum": "02ade1e0652b18b2457a203859a251d5db950f83"
 		},
 		{
 			"path": "imports/api/collections/both/organizations.js",
@@ -535,6 +539,7 @@
 		"imports/ui/pages/projects/",
 		"imports/ui/pages/projects/edit/",
 		"imports/ui/pages/projects/insert/",
+		"imports/ui/pages/register_user/",
 		"imports/ui/pages/reset_password/",
 		"imports/ui/pages/roles/",
 		"imports/ui/pages/roles/edit/",
