@@ -36,6 +36,7 @@ import {VerifyEmailPageContainer} from "/imports/ui/pages/verify_email/verify_em
 import {ForgotPasswordPageContainer} from "/imports/ui/pages/forgot_password/forgot_password.jsx";
 import {ChangePasswordPageContainer} from "/imports/ui/pages/change_password/change_password.jsx";
 import {ResetPasswordPageContainer} from "/imports/ui/pages/reset_password/reset_password.jsx";
+import {RegisterUserPageContainer} from "/imports/ui/pages/register_user/register_user.jsx";
 /*IMPORTS*/
 
 const reactMount = withOptions({
@@ -77,7 +78,8 @@ const freeRouteNames = [
 	"verify_email",
 	"forgot_password",
 	"change_password",
-	"reset_password"
+	"reset_password",
+	"register_user"
 ];
 
 export const routeGranted = function(routeName) {
@@ -908,6 +910,31 @@ freeRoutes.route("/reset_password/:resetPasswordToken", {
     	reactMount(LayoutContainer, {
 			content: (
 				<ResetPasswordPageContainer routeParams={routeParams} />
+			)
+		});
+
+    },
+	triggersExit: [
+		function(context, redirect) {
+			
+		}
+	]
+});
+
+freeRoutes.route("/register_user", {
+    name: "register_user",
+
+    title: "",
+
+	triggersEnter: [
+		function(context, redirect, stop) {
+			
+		}
+	],
+    action: function(routeParams, routeQuery) {
+    	reactMount(LayoutContainer, {
+			content: (
+				<RegisterUserPageContainer routeParams={routeParams} />
 			)
 		});
 
