@@ -2,7 +2,7 @@
 	"output_files": [
 		{
 			"path": "imports/ui/router/router.jsx",
-			"checksum": "9ab0d25672b0c9e799380239a644a3b91000d22d"
+			"checksum": "79d526db085c065294ed649bdcea34658c5ceaab"
 		},
 		{
 			"path": "imports/api/server_routes/router.js",
@@ -35,6 +35,10 @@
 		{
 			"path": "imports/ui/layouts/layout.jsx",
 			"checksum": "26442e704bb934e3583bb01df592a04a89fd959b"
+		},
+		{
+			"path": "imports/ui/pages/login/login.jsx",
+			"checksum": "5abbf60e6e5215bb87a8ede22c54f4ae1dbe1a28"
 		},
 		{
 			"path": "imports/ui/pages/dashboard/dashboard.jsx",
@@ -147,6 +151,22 @@
 		{
 			"path": "imports/ui/pages/vacations/edit/edit.jsx",
 			"checksum": "0ec3b099337876576f9402a46745c0c21bb7e6f3"
+		},
+		{
+			"path": "imports/ui/pages/verify_email/verify_email.jsx",
+			"checksum": "c747e94daab6637d5eb313ac8c5a638e1e89b7e1"
+		},
+		{
+			"path": "imports/ui/pages/forgot_password/forgot_password.jsx",
+			"checksum": "9b5702d7cf94f7e23070d8d617c1400b82940d7f"
+		},
+		{
+			"path": "imports/ui/pages/change_password/change_password.jsx",
+			"checksum": "ace1039a56161a756eb2e69f59a4d881db561162"
+		},
+		{
+			"path": "imports/ui/pages/reset_password/reset_password.jsx",
+			"checksum": "249adfb7b06deace249295d8aa550bf404ba8ae4"
 		},
 		{
 			"path": "imports/api/collections/both/organizations.js",
@@ -453,12 +473,12 @@
 			"checksum": "d2ec9b77d3b51c8be4511ea3ea76074bf10bb9e2"
 		},
 		{
-			"path": "imports/ui/components/markdown/markdown.jsx",
-			"checksum": "2212b32f805f0b59c78642b02f66d3e16a7501af"
-		},
-		{
 			"path": "imports/modules/client/form_utils.js",
 			"checksum": "1e972818b4168d1dad764233bcd4c27283462aff"
+		},
+		{
+			"path": "imports/ui/components/markdown/markdown.jsx",
+			"checksum": "2212b32f805f0b59c78642b02f66d3e16a7501af"
 		}
 	],
 	"output_directories": [
@@ -488,6 +508,7 @@
 		"imports/ui/components/markdown/",
 		"imports/ui/layouts/",
 		"imports/ui/pages/",
+		"imports/ui/pages/change_password/",
 		"imports/ui/pages/customers/",
 		"imports/ui/pages/customers/edit/",
 		"imports/ui/pages/customers/insert/",
@@ -495,10 +516,12 @@
 		"imports/ui/pages/employees/",
 		"imports/ui/pages/employees/edit/",
 		"imports/ui/pages/employees/insert/",
+		"imports/ui/pages/forgot_password/",
 		"imports/ui/pages/invoices/",
 		"imports/ui/pages/invoices/edit/",
 		"imports/ui/pages/invoices/insert/",
 		"imports/ui/pages/loading/",
+		"imports/ui/pages/login/",
 		"imports/ui/pages/not_found/",
 		"imports/ui/pages/organizations/",
 		"imports/ui/pages/organizations/edit/",
@@ -512,12 +535,14 @@
 		"imports/ui/pages/projects/",
 		"imports/ui/pages/projects/edit/",
 		"imports/ui/pages/projects/insert/",
+		"imports/ui/pages/reset_password/",
 		"imports/ui/pages/roles/",
 		"imports/ui/pages/roles/edit/",
 		"imports/ui/pages/roles/insert/",
 		"imports/ui/pages/vacations/",
 		"imports/ui/pages/vacations/edit/",
 		"imports/ui/pages/vacations/insert/",
+		"imports/ui/pages/verify_email/",
 		"imports/ui/router/",
 		"imports/ui/stylesheets/",
 		"imports/ui/stylesheets/framework/",
