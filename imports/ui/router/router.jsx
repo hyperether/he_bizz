@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import {mount, withOptions} from "react-mounter";
 import {LayoutContainer} from "/imports/ui/layouts/layout.jsx";
 import {NotFound} from "/imports/ui/pages/not_found/not_found.jsx";
+import {LoginPageContainer} from "/imports/ui/pages/login/login.jsx";
 import {DashboardPageContainer} from "/imports/ui/pages/dashboard/dashboard.jsx";
 import {OrganizationsPageContainer} from "/imports/ui/pages/organizations/organizations.jsx";
 import {OrganizationsInsertPageContainer} from "/imports/ui/pages/organizations/insert/insert.jsx";
@@ -31,6 +32,10 @@ import {PaycheksEditPageContainer} from "/imports/ui/pages/paycheks/edit/edit.js
 import {VacationsPageContainer} from "/imports/ui/pages/vacations/vacations.jsx";
 import {VacationsInsertPageContainer} from "/imports/ui/pages/vacations/insert/insert.jsx";
 import {VacationsEditPageContainer} from "/imports/ui/pages/vacations/edit/edit.jsx";
+import {VerifyEmailPageContainer} from "/imports/ui/pages/verify_email/verify_email.jsx";
+import {ForgotPasswordPageContainer} from "/imports/ui/pages/forgot_password/forgot_password.jsx";
+import {ChangePasswordPageContainer} from "/imports/ui/pages/change_password/change_password.jsx";
+import {ResetPasswordPageContainer} from "/imports/ui/pages/reset_password/reset_password.jsx";
 /*IMPORTS*/
 
 const reactMount = withOptions({
@@ -40,6 +45,7 @@ const reactMount = withOptions({
 }, mount);
 
 const freeRouteNames = [
+	"login",
 	"dashboard",
 	"organizations",
 	"organizations.insert",
@@ -67,7 +73,11 @@ const freeRouteNames = [
 	"paycheks.edit",
 	"vacations",
 	"vacations.insert",
-	"vacations.edit"
+	"vacations.edit",
+	"verify_email",
+	"forgot_password",
+	"change_password",
+	"reset_password"
 ];
 
 export const routeGranted = function(routeName) {
@@ -85,6 +95,31 @@ FlowRouter.notFound = {
 };
 
 freeRoutes.route("/", {
+    name: "login",
+
+    title: "",
+
+	triggersEnter: [
+		function(context, redirect, stop) {
+			
+		}
+	],
+    action: function(routeParams, routeQuery) {
+    	reactMount(LayoutContainer, {
+			content: (
+				<LoginPageContainer routeParams={routeParams} />
+			)
+		});
+
+    },
+	triggersExit: [
+		function(context, redirect) {
+			
+		}
+	]
+});
+
+freeRoutes.route("/dashboard", {
     name: "dashboard",
 
     title: "",
@@ -773,6 +808,106 @@ freeRoutes.route("/vacations/edit/:customerId", {
     	reactMount(LayoutContainer, {
 			content: (
 				<VacationsEditPageContainer routeParams={routeParams} />
+			)
+		});
+
+    },
+	triggersExit: [
+		function(context, redirect) {
+			
+		}
+	]
+});
+
+freeRoutes.route("/verify_email/:verifyEmailToken", {
+    name: "verify_email",
+
+    title: "",
+
+	triggersEnter: [
+		function(context, redirect, stop) {
+			
+		}
+	],
+    action: function(routeParams, routeQuery) {
+    	reactMount(LayoutContainer, {
+			content: (
+				<VerifyEmailPageContainer routeParams={routeParams} />
+			)
+		});
+
+    },
+	triggersExit: [
+		function(context, redirect) {
+			
+		}
+	]
+});
+
+freeRoutes.route("/forgot_password", {
+    name: "forgot_password",
+
+    title: "",
+
+	triggersEnter: [
+		function(context, redirect, stop) {
+			
+		}
+	],
+    action: function(routeParams, routeQuery) {
+    	reactMount(LayoutContainer, {
+			content: (
+				<ForgotPasswordPageContainer routeParams={routeParams} />
+			)
+		});
+
+    },
+	triggersExit: [
+		function(context, redirect) {
+			
+		}
+	]
+});
+
+freeRoutes.route("/change_password", {
+    name: "change_password",
+
+    title: "",
+
+	triggersEnter: [
+		function(context, redirect, stop) {
+			
+		}
+	],
+    action: function(routeParams, routeQuery) {
+    	reactMount(LayoutContainer, {
+			content: (
+				<ChangePasswordPageContainer routeParams={routeParams} />
+			)
+		});
+
+    },
+	triggersExit: [
+		function(context, redirect) {
+			
+		}
+	]
+});
+
+freeRoutes.route("/reset_password/:resetPasswordToken", {
+    name: "reset_password",
+
+    title: "",
+
+	triggersEnter: [
+		function(context, redirect, stop) {
+			
+		}
+	],
+    action: function(routeParams, routeQuery) {
+    	reactMount(LayoutContainer, {
+			content: (
+				<ResetPasswordPageContainer routeParams={routeParams} />
 			)
 		});
 
