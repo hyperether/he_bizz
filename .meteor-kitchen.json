@@ -1,0 +1,569 @@
+{
+	"output_files": [
+		{
+			"path": "imports/ui/router/router.jsx",
+			"checksum": "9ab0d25672b0c9e799380239a644a3b91000d22d"
+		},
+		{
+			"path": "imports/api/server_routes/router.js",
+			"checksum": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+		},
+		{
+			"path": "imports/startup/client/client.js",
+			"checksum": "71b26d1a74eb744a17ea0fb2e560c9050cccfb17"
+		},
+		{
+			"path": "client/index.html",
+			"checksum": "6bfb2252c4638d082ff426bdb95e6af32e386682"
+		},
+		{
+			"path": "imports/startup/server/server.js",
+			"checksum": "9259aa717de9d291b65f30c0ef70c56c4458a461"
+		},
+		{
+			"path": "imports/ui/pages/not_found/not_found.jsx",
+			"checksum": "fadaa2367aa2f1a3ec156b9b338252456cf15e7d"
+		},
+		{
+			"path": "imports/ui/pages/loading/loading.jsx",
+			"checksum": "6b36bcf7af253490f0fe8bc0a4bd83cd161450b1"
+		},
+		{
+			"path": "imports/ui/stylesheets/styles/styles.less",
+			"checksum": "6e5291a1299ec3d600ce526ab224bbc4f3d00899"
+		},
+		{
+			"path": "imports/ui/layouts/layout.jsx",
+			"checksum": "26442e704bb934e3583bb01df592a04a89fd959b"
+		},
+		{
+			"path": "imports/ui/pages/dashboard/dashboard.jsx",
+			"checksum": "7a48679f1658cc1c6ec0f691a2c4d92ff279c62a"
+		},
+		{
+			"path": "imports/ui/pages/organizations/organizations.jsx",
+			"checksum": "4360659a09a76883554df22500b1ec4b65e6edf9"
+		},
+		{
+			"path": "imports/ui/pages/organizations/insert/insert.jsx",
+			"checksum": "93651f089b5846430a2094171a074d0061c0a0cb"
+		},
+		{
+			"path": "imports/ui/pages/organizations/edit/edit.jsx",
+			"checksum": "1a8533dfd1c1cbbd12bc9b0f3a0b013a1ea94f51"
+		},
+		{
+			"path": "imports/ui/pages/employees/employees.jsx",
+			"checksum": "218351b785beab7c1108420ef9feca0b4bf982e8"
+		},
+		{
+			"path": "imports/ui/pages/employees/insert/insert.jsx",
+			"checksum": "c16176b73efb978165b64359025d426f88207688"
+		},
+		{
+			"path": "imports/ui/pages/employees/edit/edit.jsx",
+			"checksum": "42259f6b21a0bb5f9018707d225b833bd809e710"
+		},
+		{
+			"path": "imports/ui/pages/partners/partners.jsx",
+			"checksum": "8aab579edbaee1fc747d4d9dda01a0296c768a7d"
+		},
+		{
+			"path": "imports/ui/pages/partners/insert/insert.jsx",
+			"checksum": "19ce4e6e3a1dcb94921015a282d8f17ddf8090e5"
+		},
+		{
+			"path": "imports/ui/pages/partners/edit/edit.jsx",
+			"checksum": "03bb7fa7ccc990bd43dedd1bd6a2e73c2310768d"
+		},
+		{
+			"path": "imports/ui/pages/projects/projects.jsx",
+			"checksum": "1c86902ab5e8e6e6d8e6933c186cad308e0e3289"
+		},
+		{
+			"path": "imports/ui/pages/projects/insert/insert.jsx",
+			"checksum": "bdab2b05d1211397b8a8d678f543d829b2eee294"
+		},
+		{
+			"path": "imports/ui/pages/projects/edit/edit.jsx",
+			"checksum": "f4e71049529321dccaa7dddccf750f1c264ea3ba"
+		},
+		{
+			"path": "imports/ui/pages/roles/roles.jsx",
+			"checksum": "b5204ac5ea553c7f1221a2c347862e6eb8b56a57"
+		},
+		{
+			"path": "imports/ui/pages/roles/insert/insert.jsx",
+			"checksum": "efabb3b2798b9ff17676c902195ad431b01a58d8"
+		},
+		{
+			"path": "imports/ui/pages/roles/edit/edit.jsx",
+			"checksum": "055d528f4e0af5bbb4ea7fa9f18be0b28bd333b9"
+		},
+		{
+			"path": "imports/ui/pages/customers/customers.jsx",
+			"checksum": "9bb0057c0b9ba65fb776bf128d9cab814744ad86"
+		},
+		{
+			"path": "imports/ui/pages/customers/insert/insert.jsx",
+			"checksum": "c5f2f48e4fcac34899a2504352c00992b1160833"
+		},
+		{
+			"path": "imports/ui/pages/customers/edit/edit.jsx",
+			"checksum": "7705cfd761e49f093da2481cb4f01126841af239"
+		},
+		{
+			"path": "imports/ui/pages/invoices/invoices.jsx",
+			"checksum": "b3af874b124d3a9fcba8bfeebdb99d41c05121f7"
+		},
+		{
+			"path": "imports/ui/pages/invoices/insert/insert.jsx",
+			"checksum": "bbf4669a60b61304b281e381bfe6704e9b0fd9fa"
+		},
+		{
+			"path": "imports/ui/pages/invoices/edit/edit.jsx",
+			"checksum": "2b123682d2c3c0f49954ab031111fbcecdeb9a49"
+		},
+		{
+			"path": "imports/ui/pages/paycheks/paycheks.jsx",
+			"checksum": "c8b8648e26526f7ea4640240a290e1b5c08dc4d9"
+		},
+		{
+			"path": "imports/ui/pages/paycheks/insert/insert.jsx",
+			"checksum": "acfd3ef0e9392179652b00ff7ba12ec328f054d8"
+		},
+		{
+			"path": "imports/ui/pages/paycheks/edit/edit.jsx",
+			"checksum": "2672cc8bfcef11f98a07bf8c1614bf7b302f59b3"
+		},
+		{
+			"path": "imports/ui/pages/vacations/vacations.jsx",
+			"checksum": "a012b5622ef1a13da45da0898b842bf379344e73"
+		},
+		{
+			"path": "imports/ui/pages/vacations/insert/insert.jsx",
+			"checksum": "b4160e697d8c5a82b9d676fb587ad54b3f056e9d"
+		},
+		{
+			"path": "imports/ui/pages/vacations/edit/edit.jsx",
+			"checksum": "0ec3b099337876576f9402a46745c0c21bb7e6f3"
+		},
+		{
+			"path": "imports/api/collections/both/organizations.js",
+			"checksum": "0b8cb2fc372488aa603ec334e95a7e60f9cc9804"
+		},
+		{
+			"path": "imports/api/methods/organizations.js",
+			"checksum": "02f4880b6de32459e280b7b4d65ac10c74eb0784"
+		},
+		{
+			"path": "imports/api/collections/server/rules/organizations.js",
+			"checksum": "afc23f559b8afc37d32daec018df35bd46819714"
+		},
+		{
+			"path": "imports/api/collections/server/publications/organizations.js",
+			"checksum": "8738fb06de5c7ebb09dcc69fc5b56b02e6cecab9"
+		},
+		{
+			"path": "imports/api/collections/both/employees.js",
+			"checksum": "4556bb0911eca03a209f4d36da082cabb3ce241f"
+		},
+		{
+			"path": "imports/api/methods/employees.js",
+			"checksum": "bbd644831e1ff31a1dda7d9c550cda6323d326be"
+		},
+		{
+			"path": "imports/api/collections/server/rules/employees.js",
+			"checksum": "908d245faf97a7dce48a0e8f01acff0b4a625f6c"
+		},
+		{
+			"path": "imports/api/collections/server/publications/employees.js",
+			"checksum": "ee65048bc7d5523d8709e88df0059e73e50c33cd"
+		},
+		{
+			"path": "imports/api/collections/both/partners.js",
+			"checksum": "740c649d31e31ba3f31e21cb52b37ed7d72f92a1"
+		},
+		{
+			"path": "imports/api/methods/partners.js",
+			"checksum": "38c960545dd0679b9ff82e0c78120d29bdae4dde"
+		},
+		{
+			"path": "imports/api/collections/server/rules/partners.js",
+			"checksum": "dced1a903cff7c9ef728a355a669481c74b4ae94"
+		},
+		{
+			"path": "imports/api/collections/server/publications/partners.js",
+			"checksum": "8eb0db264c7ca3e6da876d31e5ecfcf5994443f4"
+		},
+		{
+			"path": "imports/api/collections/both/projects.js",
+			"checksum": "a016d7371b66733642e79f2113a504d15c1fc970"
+		},
+		{
+			"path": "imports/api/methods/projects.js",
+			"checksum": "c109161964151947fc5a0909d91b44ec3a91b77d"
+		},
+		{
+			"path": "imports/api/collections/server/rules/projects.js",
+			"checksum": "b74eed2c1274ad59d701e5c71354451c11ba689b"
+		},
+		{
+			"path": "imports/api/collections/server/publications/projects.js",
+			"checksum": "5aa0a3939c9a1677fed1c7bc2e911be1aa1459ae"
+		},
+		{
+			"path": "imports/api/collections/both/roles.js",
+			"checksum": "4d9ac4bba70eafa9cc53e1433b0a7b35596ee942"
+		},
+		{
+			"path": "imports/api/methods/roles.js",
+			"checksum": "11e3303a9505b76e117a41ff8c0bd5948d0c6ea7"
+		},
+		{
+			"path": "imports/api/collections/server/rules/roles.js",
+			"checksum": "b18f4ede1c1efc67ec1595e1e567548960b1b55c"
+		},
+		{
+			"path": "imports/api/collections/server/publications/roles.js",
+			"checksum": "65019a13bd1e6eb3ee6f74d0c8033f3678ded0b0"
+		},
+		{
+			"path": "imports/api/collections/both/customers.js",
+			"checksum": "a95df8913f76f7325d7501c19709d065fefb428b"
+		},
+		{
+			"path": "imports/api/methods/customers.js",
+			"checksum": "b99f4cc6fef422fa02224417f756a27fb8ff19a8"
+		},
+		{
+			"path": "imports/api/collections/server/rules/customers.js",
+			"checksum": "220ec30dd3647c4fb1bdcb0bc375bc64148aec21"
+		},
+		{
+			"path": "imports/api/collections/server/publications/customers.js",
+			"checksum": "49ba8b06150ebefa8f7eb2ec0417292b30890047"
+		},
+		{
+			"path": "imports/api/collections/both/invoices.js",
+			"checksum": "e88044622341a24a5d2274f8b36c3a141f0d9e2d"
+		},
+		{
+			"path": "imports/api/methods/invoices.js",
+			"checksum": "e70ef9be22f96515955abd69b566a5bbc7735029"
+		},
+		{
+			"path": "imports/api/collections/server/rules/invoices.js",
+			"checksum": "90d20cfb35c553da2b35e07d2c33e91a2ac9e365"
+		},
+		{
+			"path": "imports/api/collections/server/publications/invoices.js",
+			"checksum": "cd7f4a86a3b382c3bdbb775715380b17785e25d4"
+		},
+		{
+			"path": "imports/api/collections/both/paycheks.js",
+			"checksum": "bc0a4eada091c9835d3f808d7f0bd3d5eaee0669"
+		},
+		{
+			"path": "imports/api/methods/paycheks.js",
+			"checksum": "b6e47e4311eb98295690f41a020c2fb428afd288"
+		},
+		{
+			"path": "imports/api/collections/server/rules/paycheks.js",
+			"checksum": "d70b1ed32b9267100df6c5563f6bb4355a124ca9"
+		},
+		{
+			"path": "imports/api/collections/server/publications/paycheks.js",
+			"checksum": "74be12fd5f42d45298be5efa8a9623da42926467"
+		},
+		{
+			"path": "imports/api/collections/both/vacations.js",
+			"checksum": "e2fc0cf2fa993d905884c6dc6ccee06fe02b103c"
+		},
+		{
+			"path": "imports/api/methods/vacations.js",
+			"checksum": "fa3120e0f13447eb004b3a01d32a5fe97907d930"
+		},
+		{
+			"path": "imports/api/collections/server/rules/vacations.js",
+			"checksum": "d81b3bf75c6f2756d51438c7d97daf816b27eab0"
+		},
+		{
+			"path": "imports/api/collections/server/publications/vacations.js",
+			"checksum": "d6d0ab476be0051adf360838255b44664334ac02"
+		},
+		{
+			"path": "client/main.js",
+			"checksum": "eabf8ceeadf9b5d581958b983b414399992e5b57"
+		},
+		{
+			"path": "server/main.js",
+			"checksum": "0cba7ee84bd556b9bf461412ac2d163713627941"
+		},
+		{
+			"path": "imports/modules/both/string_utils.js",
+			"checksum": "215c11cdc7fe58b07003e05b6d5534e35fd08eb9"
+		},
+		{
+			"path": "imports/modules/both/object_utils.js",
+			"checksum": "d20483523b4ab473de72120817b5e3d97ee13291"
+		},
+		{
+			"path": "imports/modules/both/date_utils.js",
+			"checksum": "37c5c6604bac27dd7f0831382cefee28fbd5fc96"
+		},
+		{
+			"path": "imports/modules/client/globals/init.js",
+			"checksum": "0774fd32553323b79b06ad86f6d078425abc8e37"
+		},
+		{
+			"path": "imports/modules/client/http_utils.js",
+			"checksum": "53b1b7f072acdeaafac35550154b1f9cbad24bf4"
+		},
+		{
+			"path": "imports/modules/client/router_utils.js",
+			"checksum": "fd12420e94531946b6c0d57634ad2c80ea4b274b"
+		},
+		{
+			"path": "imports/ui/components/confirmation_dialog/confirmation_dialog.jsx",
+			"checksum": "8f161386ef7b5bfc0b1eb357c9b6f2a45b833731"
+		},
+		{
+			"path": "imports/ui/components/input_dialog/input_dialog.jsx",
+			"checksum": "5293cf0e9ec94a1970b3ef1bf2e637aa45eb7b39"
+		},
+		{
+			"path": "imports/ui/components/choice_dialog/choice_dialog.jsx",
+			"checksum": "486c445b8df959549f604986b42250d09c21edb6"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3/custom.bootstrap.import.less",
+			"checksum": "8007cd69773c1c62284460f7c0fd8310e7f60094"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3/custom.bootstrap.mixins.import.less",
+			"checksum": "b53332a4c7dffc57aefda1db82b4e09258dad07a"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3/custom.bootstrap.less",
+			"checksum": "a114a65d406f228e4137a3fb7b33047c40a5cd68"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3/custom.bootstrap.json",
+			"checksum": "59c3803dde72dfd34e95a52dc4f5cae65018ec38"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_el.js",
+			"checksum": "d00eebe17389c41dbdfdd5611573ba52169f16eb"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_zh.js",
+			"checksum": "f477aede4974871fc0ba71d3ed4f90d8b9f1a74e"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_th.js",
+			"checksum": "05fec04f2b334bd579126eeb54321fbec516470f"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_LANG.js",
+			"checksum": "e80901eda8d09ee66e3375ddd6d7f7a53dbfcda8"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_nl.js",
+			"checksum": "106dfa775832df6830675c8927603a813063986c"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pl.js",
+			"checksum": "77ce969c9532dc4cda50d57bad7c8e8c9e792386"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_sk.js",
+			"checksum": "1dc9d65243156006cf762ed85cdf36501c27f38a"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_es.js",
+			"checksum": "6eb5775359ee3e6199962d05fb6a2ddf79426766"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_fr.js",
+			"checksum": "aea834881f99fe187153560b32011c2af7f56092"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_tr.js",
+			"checksum": "25e2ea3f23c594180a3496f814ae907343de1add"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput.js",
+			"checksum": "38c7d5c7dee7b7b910fce8e5192c5eb008a58f1e"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pt.js",
+			"checksum": "f1d3b0c83a6a10b6e1cd7b8f523a98a7a51720ac"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_uk.js",
+			"checksum": "f5f6b5052a111fa87a5da8608a5d137d4116e6c5"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_hu.js",
+			"checksum": "500bfd774110b73e07e9f4e23a4cbf9c896fbcea"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_cz.js",
+			"checksum": "146a2a2bd0e89b62b775eee929907970e875ddf6"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput.css",
+			"checksum": "30ba45c948bcb125cf0cb550b4a9d2f13ffcc710"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_ru.js",
+			"checksum": "4939e4b72d235b9a68602aba3501bd72bde77611"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_it.js",
+			"checksum": "09d41c11dadf15f197bd443f5ad01a68e3408bde"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_de.js",
+			"checksum": "fcad7c9406cb7ab1959ee5a62825a62b905f34a2"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_ro.js",
+			"checksum": "7fcbd870c67fbd4646b6b53c4e07f84ebaf6ebd1"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_sr.js",
+			"checksum": "50ac58590814ab9959e34d94a4b2bb8cf9be35b9"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/fileinput_locale_pt-BR.js",
+			"checksum": "8caeab2c4b40a90eba4412eb5a31c76405e5a04a"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-tagsinput/bootstrap-tagsinput.js",
+			"checksum": "6f25a97cb1bb9b8edcf0cb297eabfc9f94f1a80d"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-tagsinput/bootstrap-tagsinput.css",
+			"checksum": "49937990ee001ae632d23d1e9bb71dc4460ac7c1"
+		},
+		{
+			"path": "imports/ui/stylesheets/framework/bootstrap3-plugins/plugins.js",
+			"checksum": "d2ec9b77d3b51c8be4511ea3ea76074bf10bb9e2"
+		},
+		{
+			"path": "imports/ui/components/markdown/markdown.jsx",
+			"checksum": "2212b32f805f0b59c78642b02f66d3e16a7501af"
+		},
+		{
+			"path": "imports/modules/client/form_utils.js",
+			"checksum": "1e972818b4168d1dad764233bcd4c27283462aff"
+		}
+	],
+	"output_directories": [
+		"client/",
+		"imports/",
+		"imports/api/",
+		"imports/api/collections/both/",
+		"imports/api/collections/both/joins/",
+		"imports/api/collections/server/",
+		"imports/api/collections/server/publications/",
+		"imports/api/collections/server/rules/",
+		"imports/api/methods/",
+		"imports/api/server_routes/",
+		"imports/modules/",
+		"imports/modules/both/",
+		"imports/modules/client/",
+		"imports/modules/client/globals/",
+		"imports/modules/server/",
+		"imports/startup/",
+		"imports/startup/client/",
+		"imports/startup/server/",
+		"imports/ui/",
+		"imports/ui/components/",
+		"imports/ui/components/choice_dialog/",
+		"imports/ui/components/confirmation_dialog/",
+		"imports/ui/components/input_dialog/",
+		"imports/ui/components/markdown/",
+		"imports/ui/layouts/",
+		"imports/ui/pages/",
+		"imports/ui/pages/customers/",
+		"imports/ui/pages/customers/edit/",
+		"imports/ui/pages/customers/insert/",
+		"imports/ui/pages/dashboard/",
+		"imports/ui/pages/employees/",
+		"imports/ui/pages/employees/edit/",
+		"imports/ui/pages/employees/insert/",
+		"imports/ui/pages/invoices/",
+		"imports/ui/pages/invoices/edit/",
+		"imports/ui/pages/invoices/insert/",
+		"imports/ui/pages/loading/",
+		"imports/ui/pages/not_found/",
+		"imports/ui/pages/organizations/",
+		"imports/ui/pages/organizations/edit/",
+		"imports/ui/pages/organizations/insert/",
+		"imports/ui/pages/partners/",
+		"imports/ui/pages/partners/edit/",
+		"imports/ui/pages/partners/insert/",
+		"imports/ui/pages/paycheks/",
+		"imports/ui/pages/paycheks/edit/",
+		"imports/ui/pages/paycheks/insert/",
+		"imports/ui/pages/projects/",
+		"imports/ui/pages/projects/edit/",
+		"imports/ui/pages/projects/insert/",
+		"imports/ui/pages/roles/",
+		"imports/ui/pages/roles/edit/",
+		"imports/ui/pages/roles/insert/",
+		"imports/ui/pages/vacations/",
+		"imports/ui/pages/vacations/edit/",
+		"imports/ui/pages/vacations/insert/",
+		"imports/ui/router/",
+		"imports/ui/stylesheets/",
+		"imports/ui/stylesheets/framework/",
+		"imports/ui/stylesheets/framework/bootstrap3-plugins/",
+		"imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-fileinput/",
+		"imports/ui/stylesheets/framework/bootstrap3-plugins/bootstrap-tagsinput/",
+		"imports/ui/stylesheets/framework/bootstrap3/",
+		"imports/ui/stylesheets/styles/",
+		"imports/ui/stylesheets/styles/theme/",
+		"packages/",
+		"private/",
+		"public/",
+		"public/fonts/",
+		"public/images/",
+		"server/"
+	],
+	"packages": {
+		"meteor": [
+			"blaze-html-templates",
+			"kadira:flow-router",
+			"react-meteor-data",
+			"reactive-dict",
+			"meteorhacks:picker",
+			"check",
+			"random",
+			"http",
+			"email",
+			"spiderable",
+			"ejson",
+			"session",
+			"fortawesome:fontawesome",
+			"matb33:collection-hooks",
+			"less",
+			"twbs:bootstrap"
+		],
+		"npm": [
+			"react",
+			"react-dom",
+			"react-mounter",
+			"react-addons-pure-render-mixin",
+			"prop-types",
+			"bcrypt",
+			"moment",
+			"marked"
+		],
+		"mrt": [
+		]
+	}
+}
