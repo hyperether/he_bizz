@@ -8,7 +8,7 @@ import {Loading} from "/imports/ui/pages/loading/loading.jsx";
 import {mergeObjects} from "/imports/modules/both/object_utils";
 
 
-export class RegisterUserPage extends Component {
+export class RegisterPage extends Component {
 	constructor () {
 		super();
 		this.state = {
@@ -143,7 +143,7 @@ export class RegisterUserPage extends Component {
 	}
 }
 
-export const RegisterUserPageContainer = withTracker(function(props) {
+export const RegisterPageContainer = withTracker(function(props) {
 		var isReady = function() {
 		
 
@@ -171,4 +171,4 @@ export const RegisterUserPageContainer = withTracker(function(props) {
 	}
 	return { data: data };
 
-})(RegisterUserPage);
+})(RegisterPage);

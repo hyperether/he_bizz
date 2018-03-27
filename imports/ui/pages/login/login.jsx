@@ -247,6 +247,12 @@ export class LoginPage extends Component {
 						Click here
 					</a>
 				</p>
+				<p className="text-center account-form-text-after" id="register-link">
+					Haben Sie noch kein Konto?&nbsp;
+					<a href={pathFor('register')}>
+						Hier registrieren
+					</a>
+				</p>
 			</div>
 		</form>
 	</div>

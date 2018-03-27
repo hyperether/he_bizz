@@ -1,3 +1,4 @@
+import {Users} from "meteor-user-roles";
 import "/imports/api/collections/both/customers.js";
 import "/imports/api/collections/both/projects.js";
 import "/imports/api/collections/both/employees.js";
@@ -49,4 +50,20 @@ Meteor.startup(function() {
 	}
 
 	
+});
+
+Accounts.onCreateUser(function (options, user) {
+	user.roles = ["employee"];
+
+	if(options.profile) {
+		user.profile = options.profile;
+	}
+
+	if(!Users.findOne({ roles: "admin" }) && user.roles.indexOf("admin") < 0) {
+		user.roles = ["admin"];
+	}
+
+	user.loginCount = 0;
+
+	return user;
 });
